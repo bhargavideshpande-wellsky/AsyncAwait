@@ -1,0 +1,31 @@
+[
+  {
+    "hotelId": 1,
+    "hotelContactNo": 9175347966,
+    "hotelAmminities": "Room service, InternetAccess, SwimingPool",
+    "hotelPolicy": "The standard check-in time is 03:00 PM and the standard check-out time is 11:00 AM.",
+    "HotelImageUrl": "C:\\Users\\bdeshpande\\source\\repos\\HotelApiService\\HotelApiService\\Images\\Hayatt.jpg"
+  },
+  {
+    "hotelId": 2,
+    "hotelContactNo": 9423110800,
+    "hotelAmminities": "Room service, free Wifi, SwimingPool, free breakfast",
+    "hotelPolicy": "The standard check-in time is 12:00 PM and the standard check-out time is 11:00 AM.",
+    "HotelImageUrl": "C:\\Users\\bdeshpande\\source\\repos\\HotelApiService\\HotelApiService\\Images\\Novotel.jpg"
+  },
+  {
+    "hotelId": 3,
+    "hotelContactNo": 8854786565,
+    "hotelAmminities": "Gym, Spa, Buffet, free Wifi , Room service",
+    "hotelPolicy": "The standard check-in time is 12:00 PM and the standard check-out time is 11:00 AM, 10% refund would be applicable in case the hotel denies check-in under such circumstances.",
+    "HotelImageUrl": "C:\\Users\\bdeshpande\\source\\repos\\HotelApiService\\HotelApiService\\Images\\RadissonBlu.jpg"
+  },
+  {
+    "hotelId": 4,
+    "hotelContactNo": 9854656565,
+    "hotelAmminities": "Restaurant, free Wifi , Room service",
+    "hotelPolicy": "The standard check-in time is 12:00 PM and the standard check-out time is 11:00 AM, No refund would be applicable in case the hotel denies check-in under such circumstances.",
+    "HotelImageUrl": "C:\\Users\\bdeshpande\\source\\repos\\HotelApiService\\HotelApiService\\Images\\Pride.jfif"
+  }
+
+]

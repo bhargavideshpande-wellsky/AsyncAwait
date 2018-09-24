@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HotelsRoomModelStoreContainer" CdmEntityContainer="HotelsRoomEntities">
+    <EntitySetMapping Name="RoomBookings">
+      <EntityTypeMapping TypeName="HotelsRoomModel.RoomBooking">
+        <MappingFragment StoreEntitySet="RoomBooking">
+          <ScalarProperty Name="RoomType" ColumnName="RoomType" />
+          <ScalarProperty Name="NoOfRoomsBooked" ColumnName="NoOfRoomsBooked" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HotelAddress" ColumnName="HotelAddress" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogDetails">
+      <EntityTypeMapping TypeName="HotelsRoomModel.LogDetail">
+        <MappingFragment StoreEntitySet="LogDetails">
+          <ScalarProperty Name="ExceptionDetails" ColumnName="ExceptionDetails" />
+          <ScalarProperty Name="RequestStatus" ColumnName="RequestStatus" />
+          <ScalarProperty Name="RequestType" ColumnName="RequestType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
