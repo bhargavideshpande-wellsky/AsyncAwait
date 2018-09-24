@@ -16,7 +16,7 @@ namespace HotelApiService.Controllers
     
     public class HotelController : ApiController
     {
-        [Log]
+        
         [Route("api/Hotel/AllHotels")]
         public async Task<List<HotelAllData>> GetAllDetailsOfHotels()
         {
@@ -50,10 +50,12 @@ namespace HotelApiService.Controllers
 
             if (hotelslist == null)
             {
+                LogDetails.Instance.AddLoggingDetails("GetAllHotels","Failure", "Exception Occured:No Data Found");
                 throw new Exception("No Data Found");
             }
             else
             {
+                LogDetails.Instance.AddLoggingDetails("GetAllHotels","Success","Get all details of hotels from WCF and Json File");
                 return hotelslist;
             }
   
@@ -72,10 +74,12 @@ namespace HotelApiService.Controllers
 
             if (content == null)
             {
+                LogDetails.Instance.AddLoggingDetails("GetHotelsByWCF","Failure", "Exception Occured:Please Check WCF Connection");
                 throw new Exception("Please Check WCF Connection!");
             }
             else
             {
+                LogDetails.Instance.AddLoggingDetails("GetHotelsByWCF", "Success","Get all details of hotels from WCF");
                 return content;
             }
             
@@ -92,10 +96,12 @@ namespace HotelApiService.Controllers
 
                 if (hotels == null)
                 {
+                    LogDetails.Instance.AddLoggingDetails("GetHotelsByJson", "Failure", "Exception Occured:No Data Found");
                     throw new Exception("No Data Found!");
                 }
                 else
                 {
+                    LogDetails.Instance.AddLoggingDetails("GetHotelsByJson", "Success", "Get all details of hotels from Json");
                     return hotels;
                 }
                 
@@ -115,10 +121,12 @@ namespace HotelApiService.Controllers
             }
             if (content == null)
             {
+                LogDetails.Instance.AddLoggingDetails("GetRoomsByHotelId","Failure", "Exception Occured:Please Check WCF Connection");
                 throw new Exception("Please Check WCF Connection!");
             }
             else
             {
+                LogDetails.Instance.AddLoggingDetails("GetRoomsByHotelId", "Success","Get all rooms available in specific hotel");
                 return content;
             }
         }
@@ -131,6 +139,7 @@ namespace HotelApiService.Controllers
                 entities.RoomBookings.Add(bookingDetails);
                 entities.SaveChanges();
             }
+            LogDetails.Instance.AddLoggingDetails("PostRoomBooking", "Success","Rooms Booked successfully");
         }
 
         [Route("api/Hotel/NoOfRoomBook")]
@@ -142,6 +151,7 @@ namespace HotelApiService.Controllers
                 string url = "http://localhost:57246/HotelService.svc/Hotels/RoomBooking";
                 response = await client.PutAsJsonAsync(url, bookedRoomDetails);
             }
+            LogDetails.Instance.AddLoggingDetails("PutNoOfRoomBookAsync", "Success", "Updation is done at cassandra");
         }
     }
 }

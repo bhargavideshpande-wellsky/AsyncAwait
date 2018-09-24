@@ -259,3 +259,8 @@ C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug
 C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\Cassandra.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\LZ4.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\Cassandra.xml
+C:\Users\bdeshpande\source\repos\HotelApiService\RoomBookingDataAccess\bin\Debug\Microsoft.Extensions.Logging.xml

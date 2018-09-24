@@ -347,3 +347,8 @@ C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\System.Refl
 C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\System.Text.Encodings.Web.xml
 C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\Cassandra.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\LZ4.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\Microsoft.Extensions.Logging.dll
+C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\Cassandra.xml
+C:\Users\bdeshpande\source\repos\HotelApiService\HotelApiService\bin\Microsoft.Extensions.Logging.xml
